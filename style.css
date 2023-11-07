@@ -1,0 +1,48 @@
+section{
+    padding: 60px 0px;
+}
+h1{
+    font-size: 18px;
+}
+footer{
+    background-color: #2A254B;
+    padding-top: 40px;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer .col-xl-3 p{
+    color: #fff;
+}
+#line{
+    border-top: 1px solid #fff;
+}
+.menu_points a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-collapse{
+    margin-left: 30%;
+}
+
+@media screen and (max-width:575px){
+    .menu_points{
+        flex-direction: column;
+    }
+    .logo{
+        max-width: 20px;
+    }
+    #rast{
+        margin-bottom: 20px!important;
+    }
+}
+
+@media screen and (max-width:991px){
+    .navbar-collapse{
+        margin-left: 0%;
+    }
+    
+}
+
